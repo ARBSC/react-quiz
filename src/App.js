@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <Fragment>
       <div className="App">
-        <Navbar title='Quiz App'/>
-    <h1>Hello from React, {name}</h1>
+        <Navbar />
+        <h1>Hello from React, {name}</h1>
       </div>
       </Fragment>
     );
